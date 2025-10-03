@@ -1,0 +1,134 @@
+# Este archivo .gitignore debe colocarse en la raíz del directorio de su proyecto Unity
+#
+# Obtenga lo último de https://github.com/github/gitignore/blob/master/Unity.gitignore
+#
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ajustes/
+
+# Arhivos grandes de compilación de Unity (Android/iOS)
+/[Ll]ibrary/Bee/artifacts/Android/**
+/[Ll]ibrary/Bee/artifacts/iOS/**
+
+# MemoryCaptures puede tener un tamaño excesivo.
+# También podrían contener datos extremadamente sensibles
+/[Mm]capturas de memoria/
+
+# Los metadatos del activo sólo deben ignorarse cuando también se ignora el activo correspondiente
+!/[Aa]conjuntos/**/*.meta
+
+# Las grabaciones pueden tener un tamaño excesivo
+/[rr]regrabaciones/
+
+
+# Descomente esta línea si desea ignorar el complemento de herramientas de almacenamiento de activos
+# /[Aa]ssets/AssetStoreTools*
+
+# Complemento Jetbrains Rider generado automáticamente
+[Aa]conjuntos/Complementos/Editor/JetBrains*
+
+# Directorio de caché de Visual Studio
+.vs/
+
+# ----------------------------------------
+# Photon PUN2
+# ----------------------------------------
+# Archivos de configuracion de Photon Server (contiene App ID)
+/Assets/Resources/PhotonServerSettings.asset
+/Assets/Resources/PhotonServerSettings.asset.meta
+
+# Archivos de caché y configuracion local (PUN2)
+/Assets/Photon/PhotonUnityNetworking/Demos/**
+/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/CullingHandler.cs
+/Assets/Photon/PhotonVoice/**
+
+# ----------------------------------------
+# Herramientas Comunes
+# ----------------------------------------
+
+# DOTween (generacion de codigo/cache)
+/Assets/Demigiant/DOTween/Editor/DOTweenSettings.asset
+/Assets/Demigiant/DOTweenPro/Editor/DOTweenProSettings.asset
+
+# ProBuilder (archivos de cache y herramientas)
+/Library/PackageCache/com.unity.probuilder/**
+
+# TextMesh Pro (generacion de recursos)
+/Assets/TextMesh Pro/Examples & Extras/
+
+# ----------------------------------------
+# Photon PUN
+# ----------------------------------------
+# Archivos de caché de la configuración de Photon
+/Assets/Photon/PhotonLibs/**
+/Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Unity2018/**
+/Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset.meta
+/Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
+
+# Directorio de caché de Gradle
+.gradle/
+
+# Archivos de proyecto y solución VS/MD/Consulo generados automáticamente
+ExportadoObj/
+.cónsul/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.usuario
+*.preferencias de usuario
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Metarchivos generados por Unity3D
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unity3D generó un archivo sobre informes de fallos
+sysinfo.txt
+
+# Construye
+*.apk
+*.paqueteunitario
+*.aab
+*.aplicación
+
+# Archivo generado por Crashlytics
+crashlytics-build.properties
+
+# específico de MacOS
+.DS_Tienda
+.DS_Tienda?
+._*
+.Foco-V100
+.Basura
+ehthumbs.db
+Pulgares.db
+informe.xml
+Pulgares.db.meta
+
+# JetBrains
+/.idea/
+.idea/**
+
+# Asset Hunter build info
+*.ahbuildinfo
+
+# FMOD
+fmod.log
+fmod_editor.log
+/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset
+/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset.meta
+
+/Assets/Plugins/FMOD/Cache/Editor.meta
